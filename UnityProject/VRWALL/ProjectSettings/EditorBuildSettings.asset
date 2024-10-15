@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/WorkingArea.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/VuforianTest.unity
+    guid: 7d311bdc4cfa1904cb4a6399612442bd
+  m_configObjects:
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 15c802e32cb8a0c40ab14e5e904c6483, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 52b0ff6d7dcdd124c9cd91f96b9ac21d, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f6b4d802b1178944c94c4c3296760431, type: 2}

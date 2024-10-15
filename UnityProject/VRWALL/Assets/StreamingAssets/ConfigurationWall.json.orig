@@ -1,0 +1,80 @@
+{
+  "geom": {
+    "width": 1.7699999809265137,
+    "height": 1
+  },
+  "lstWall": [
+<<<<<<< HEAD
+{"name": "LowRes", "min": "0", "max": "14", "screens": [{"ID": "01", "posX": 0, "posY": 0, "options": {"address": "192.168.137.1:6900", "password": "XHXwjpvc_ss"}}], "width": 1, "height": 1},
+{"name": "MedRes", "min": "1", "max": "3", "screens": [{"ID": "01", "posX": 0, "posY": 0, "options": {"address": "192.168.137.1:6901", "password": "uXeUYHqun38"}}, {"ID": "02", "posX": 0, "posY": 1, "options": {"address": "192.168.137.1:6902", "password": "loBLW6H1yu0"}}, {"ID": "03", "posX": 1, "posY": 0, "options": {"address": "192.168.137.1:6903", "password": "7g_xqRaIrmw"}}, {"ID": "04", "posX": 1, "posY": 1, "options": {"address": "192.168.137.1:6904", "password": "sYbg7KDALuY"}}], "width": 2, "height": 2},
+{"name": "HigRes", "min": "0", "max": "1", "screens": [{"ID": "01", "posX": 0, "posY": 0, "options": {"address": "192.168.137.1:6905", "password": "Jzp-nYXbcYY"}}, {"ID": "02", "posX": 0, "posY": 1, "options": {"address": "192.168.137.1:6906", "password": "7UcyV5Sz2PY"}}, {"ID": "03", "posX": 0, "posY": 2, "options": {"address": "192.168.137.1:6907", "password": "Ih7NKUdnxtc"}}, {"ID": "04", "posX": 0, "posY": 3, "options": {"address": "192.168.137.1:6908", "password": "o25KicfWEgc"}}, {"ID": "05", "posX": 1, "posY": 0, "options": {"address": "192.168.137.1:6909", "password": "k_04lk4Typ8"}}, {"ID": "06", "posX": 1, "posY": 1, "options": {"address": "192.168.137.1:6910", "password": "jYVxJGvcYlo"}}, {"ID": "07", "posX": 1, "posY": 2, "options": {"address": "192.168.137.1:6911", "password": "cnY1j7XwHpM"}}, {"ID": "08", "posX": 1, "posY": 3, "options": {"address": "192.168.137.1:6912", "password": "Ngqxc0OHdJ0"}}, {"ID": "09", "posX": 2, "posY": 0, "options": {"address": "192.168.137.1:6913", "password": "Xotx-rjVaio"}}, {"ID": "10", "posX": 2, "posY": 1, "options": {"address": "192.168.137.1:6914", "password": "rRWRSqsX6yc"}}, {"ID": "11", "posX": 2, "posY": 2, "options": {"address": "192.168.137.1:6915", "password": "AU8Og-AQgKI"}}, {"ID": "12", "posX": 2, "posY": 3, "options": {"address": "192.168.137.1:6916", "password": "HTeFjOpPMUc"}}, {"ID": "13", "posX": 3, "posY": 0, "options": {"address": "192.168.137.1:6917", "password": "FdQAyxRUCZc"}}, {"ID": "14", "posX": 3, "posY": 1, "options": {"address": "192.168.137.1:6918", "password": "LFWv_t0M2Qo"}}, {"ID": "15", "posX": 3, "posY": 2, "options": {"address": "192.168.137.1:6919", "password": "pAzer3NlwIw"}}, {"ID": "16", "posX": 3, "posY": 3, "options": {"address": "192.168.137.1:6920", "password": "WIsQC5Z3SRo"}}], "width": 4, "height": 4}  ]
+}
+=======
+    {
+      "name": "LowRes",
+      "min": 0,
+      "max": 1000,
+      "interaction":false,
+      "screens": [
+        {
+          "ID": "01",
+          "posX": 0,
+          "posY": 0,
+          "options": {
+            "address": "192.168.1.50:5900",
+            "password": "1476"
+          }
+        }
+      ],
+      "width": 1,
+      "height": 1
+    },
+    {
+      "name": "VWHD",
+      "min": 0,
+      "max": 2,
+      "interaction":true,
+      "screens": [
+        {
+          "ID": "01",
+          "posX": 0,
+          "posY": 0,
+          "options": {
+            "address": "192.168.1.50:5901",
+            "password": "1476"
+          }
+        },
+        {
+          "ID": "02",
+          "posX": 1,
+          "posY": 0,
+          "options": {
+            "address": "192.168.1.50:5902",
+            "password": "1476"
+          }
+        },
+        {
+          "ID": "03",
+          "posX": 0,
+          "posY": 1,
+          "options": {
+            "address": "192.168.1.50:5903",
+            "password": "1476"
+          }
+        },
+        {
+          "ID": "04",
+          "posX": 1,
+          "posY": 1,
+          "options": {
+            "address": "192.168.1.50:5904",
+            "password": "1476"
+          }
+        }
+      ],
+      "width": 2,
+      "height": 2
+    }
+  ]
+}
+>>>>>>> Partial_FrameBuffer

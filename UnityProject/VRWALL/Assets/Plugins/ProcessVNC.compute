@@ -1,0 +1,26 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel ProcessVNC
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float4> Result;
+StructuredBuffer<int> data;
+int frameBufferWidth;
+int frameBufferHeight;
+int UFrame_x,UFrame_y,UFrame_width,UFrame_height;
+float random_float;
+[numthreads(1,1,1)]
+void ProcessVNC (uint3 id : SV_DispatchThreadID)
+{
+    
+        int color = data[(id.y) *(UFrame_width)+(id.x)];
+        int r = color & 0xFF;
+        int g = color >> 8 & 0xFF;
+        int b = color >> 16 & 0xFF;
+        int a = color >> 24  & 0xFF;
+        // r = random_float;
+        // g = random_float;
+        // b = random_float;
+        uint2 pos = uint2(UFrame_x+id.x,UFrame_y+id.y);
+        Result[pos] = float4(r/255.0,g/255.0,b/255.0,1);
+}

@@ -1,0 +1,14 @@
+#!/bin/bash
+cat sqlt.json > ConfigurationWall.json
+LIST_json=( $(echo $@) )
+NUM=${#LIST_json[*]}
+
+i=0
+while [ $i -lt ${NUM} ]; do
+    cat ${LIST_json[$i]} >> ConfigurationWall.json
+    i=$((i+1))
+    if [ $i -lt ${NUM} ]; then
+	echo "," >> ConfigurationWall.json
+    fi
+done
+cat end.json >> ConfigurationWall.json
